@@ -461,7 +461,7 @@ function backToTop() {
 
       db.collection("orders").add(orderData)
         .then(() => {
-         
+         alert("Order submitted successfully!");
           document.getElementById("orderForm").reset();
           localStorage.removeItem("cart"); // Clear cart after order
           displayCartItems(); // Refresh cart display
