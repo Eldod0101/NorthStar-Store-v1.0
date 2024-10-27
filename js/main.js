@@ -471,10 +471,4 @@ function backToTop() {
         });
     }
 
-function showSendOrderDoneToast() {
-  const toast = document.getElementById("sendOrderDoneToast");
-  toast.classList.add("show");
-  setTimeout(() => {
-    toast.classList.remove("show");
-  }, 3000);
-}
+
